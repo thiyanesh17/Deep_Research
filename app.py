@@ -42,7 +42,7 @@ if st.sidebar.button("Clear State"):
 
    
 # Convert Data to DataFrame
-df = pd.read_csv(r"C:\Users\tg\Documents\Deep search Flow\combined_csv.csv")
+df = pd.read_csv(r"combined_csv.csv")
 
 
 def truncate_to_words(text, max_words=150):
