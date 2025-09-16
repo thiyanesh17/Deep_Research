@@ -223,7 +223,7 @@ if "prompt" not in st.session_state:
 
 # Streamlit Sidebar Inputs
 with st.sidebar:
-    st.header("Deep Research Input")
+    #st.header("Deep Research Input")
     topic = st.text_input("Enter the Topic to perform the Deep research:")
     prompt = st.text_input("Enter the Prompt [optional]:")
     num_sections = st.slider("Mention the Number of Sections:", min_value=1, max_value=10, value=3)
